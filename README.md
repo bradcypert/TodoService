@@ -32,5 +32,5 @@ Note: the "DATABASE" is non-existant, and it's all in memory. If you terminate t
 ##Building the App
 
 1. Make your code changes.
-2. ./gradlew sJ
+2. `./gradlew sJ`
 3. java -jar build/libs/TodoService-1.0-SNAPSHOT-all.jar
