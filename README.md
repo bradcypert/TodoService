@@ -27,3 +27,10 @@ GET -> localhost:4567
 ```
 
 Note: the "DATABASE" is non-existant, and it's all in memory. If you terminate the app, you lose your data. You've been warned :)
+
+
+##Building the App
+
+1. Make your code changes.
+2. ./gradlew sJ
+3. java -jar build/libs/TodoService-1.0-SNAPSHOT-all.jar
